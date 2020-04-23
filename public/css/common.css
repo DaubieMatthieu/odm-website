@@ -1,0 +1,71 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+:root {
+  --honey-color: #a98307;
+}
+
+.line {
+  width: 60%;
+  border-bottom:1px solid var(--honey-color);
+  height: 0;
+  margin: 5vh auto 5vh auto;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  border: 1px solid red;
+	width: 100%;
+}
+
+//vraiment utile ?
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+	.col-t-1 {width: 8.33%;}
+  .col-t-2 {width: 16.66%;}
+  .col-t-3 {width: 25%;}
+  .col-t-4 {width: 33.33%;}
+  .col-t-5 {width: 41.66%;}
+  .col-t-6 {width: 50%;}
+  .col-t-7 {width: 58.33%;}
+  .col-t-8 {width: 66.66%;}
+  .col-t-9 {width: 75%;}
+  .col-t-10 {width: 83.33%;}
+  .col-t-11 {width: 91.66%;}
+  .col-t-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px), @media only screen and (orientation: landscape){
+  /* For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+}

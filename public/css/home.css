@@ -1,0 +1,84 @@
+#welcome {
+  display: block;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cecece;
+  position: relative;
+  object-fit: contain;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3)), url("../images/bier_background.jpg");
+}
+
+#welcome > div {
+  text-align: center;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.scroll-icon {
+  cursor: pointer;
+  max-width: 64px;
+  height: auto;
+}
+
+#content {
+  height: 100%;
+  color: grey;
+}
+
+#content .content-box {
+  text-align: center;
+  height: 40vh;
+  width: 80%;
+  margin: auto;
+}
+
+#content .content-box h1 {
+  font-size: 3em;
+}
+
+#content .content-box > img {
+  max-width:20%;
+  height:auto;
+}
+
+#content .content-box p {
+  width: 70%;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+#social {
+  display: flex;
+  justify-content: space-around;
+}
+
+#social > div {
+  width: 20%;
+}
+
+#social img {
+  width:64px;
+  height:auto;
+  border-radius: 100%;
+}
+
+#link-top {
+  display: none;
+  position: fixed;
+  bottom:20px;
+  left:50%;
+  transform: translate(-50%, -50%);
+  opacity: 10%;
+  z-index:5;
+  transition: all 0.6s;
+}
+
+#link-top:hover {
+  opacity: 100%;
+}
