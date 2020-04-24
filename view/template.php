@@ -11,3 +11,4 @@
   </body>
 
 </html>
+<!--permet d'avoir un style général pour toutes les pages du site, non utilisé pour l'instant

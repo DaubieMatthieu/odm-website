@@ -11,8 +11,11 @@ header
 	align-items: center;
 }
 
-header > h2 {
-	padding: 1em;
+header > img {
+	min-height: 70px;
+	max-height: 100%;
+	width: auto;
+	margin-left: 1vh;
 }
 
 header > ul
