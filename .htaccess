@@ -1,3 +1,4 @@
+#renvoie les requêtes url à l'index
 RewriteEngine On
 RewriteRule ^(.*)\ $1\.php [L]
 RewriteBase /

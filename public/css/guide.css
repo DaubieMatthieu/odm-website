@@ -1,0 +1,61 @@
+/*TODO améliorer toute la mise en forme*/
+
+#map {
+  width: 100%;
+  height: 60%;
+  padding: 2%;
+}
+
+#map-container {
+  width: 70%;
+  height: 100%;
+  float:left;
+}
+
+#map-controllers {
+  width: 30%;
+  height: 100%;
+  float: right;
+  padding: 2%;
+}
+
+#place {
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+}
+
+#place-infos {
+  padding: 2%;
+  width: 40%;
+  float:left;
+}
+
+#place-biers {
+  /*TODO créer slider */
+  padding: 2%;
+  width: 60%;
+  float:right;
+}
+
+.map-controller  {
+  cursor: pointer;
+  font-size: 13px;
+  color: black;
+  opacity: 0.8;
+  display: block;
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.map-controller:hover {
+  opacity: 1;
+}
+
+.map-controller.active {
+  color: white;
+}

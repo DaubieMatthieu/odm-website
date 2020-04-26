@@ -17,6 +17,15 @@ body {
   --honey-color: #a98307;
 }
 
+#page-container {
+	position: absolute;
+	top:10vh;
+	height: 90vh;
+	width: 90%;
+	right: 5%;
+	overflow: hidden;
+}
+
 .line {
   width: 60%;
   border-bottom:1px solid var(--honey-color);
