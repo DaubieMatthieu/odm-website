@@ -37,7 +37,7 @@ function addLayers() {
       feature=
       {
         type: 'Feature',
-        properties: {title:place["nom"]},
+        properties: {title:place["name"]},
         geometry: {
           type: "Point",
           coordinates: [place["longitude"],place["latitude"]]

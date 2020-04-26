@@ -3,17 +3,17 @@
 require_once("db_connect.php");
 $db=dbConnect();
 
-function getPlaceInfos($nom) {
+function getPlaceInfos($placeName) {
   global $db;
-  $req = "SELECT * FROM lieu WHERE nom=\"$nom\"";
+  $req = "SELECT * FROM place WHERE name=\"$placeName\"";
   $rep = $db->query($req);
   $infos=($rep->fetch(PDO::FETCH_ASSOC));
   return $infos;
 }
 
-function getPlaceBiers($nom) {
+function getPlaceBiers($placeName) {
   global $db;
-  $req = "SELECT DISTINCT i1.* FROM `biere` i1 INNER JOIN `lieu_biere` i2 ON i1.id_biere IN (SELECT DISTINCT i2.id_biere FROM `lieu_biere` i2 INNER JOIN `lieu` i3 ON i2.id_lieu IN (SELECT i3.id_lieu FROM `lieu` i3 WHERE nom=\"$nom\"))";
+  $req = "SELECT DISTINCT i1.* FROM `bier` i1 INNER JOIN `place_bier` i2 ON i1.id_bier IN (SELECT DISTINCT i2.id_bier FROM `place_bier` i2 INNER JOIN `place` i3 ON i2.id_place IN (SELECT i3.id_place FROM `place` i3 WHERE name=\"$placeName\"))";
   $rep = $db->query($req);
   $biers=($rep->fetchAll(PDO::FETCH_ASSOC));
   return $biers;
