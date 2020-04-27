@@ -18,12 +18,12 @@ try {
     //selon les données demandées, appelle la bonne fonction du model pour récupérer les données de la bdd et les affiche via le bon fichier
     case 'infos':
       $data=getPlaceInfos($placeName);
-      require("../view/place-infos.php");
+      require("../view/place_infos.php");
       break;
 
     case 'biers':
       $data=getPlaceBiers($placeName);
-      require("../view/place-biers.php");
+      require("../view/place_biers.php");
       break;
 
     default:
