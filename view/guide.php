@@ -15,7 +15,7 @@
   </head>
 
   <body>
-    <?php include("header.php");?>
+    <?php require("header.php");?>
     <div id="page-container">
       <div id="map">
         <div id="map-container"></div>

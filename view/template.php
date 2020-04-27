@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <?php include("header.php");?>
+    <?php require("header.php");?>
     <?=$content?>;
   </body>
 

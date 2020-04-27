@@ -7,7 +7,7 @@
 
   <body>
 
-    <?php include("header.php");?>
+    <?php require("header.php");?>
 
     <img onclick="jumpToAnchor('welcome');" class="scroll-icon" id="link-top" src="public/images/arrow_up.png">
 
