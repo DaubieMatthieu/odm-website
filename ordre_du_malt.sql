@@ -104,4 +104,25 @@ INSERT INTO `place_bier` (`id_place_bier`, `id_place`, `id_bier`, `score`, `pric
 (10, 8, 9, NULL, '5.00', NULL),
 (11, 8, 10, NULL, '5.00', NULL),
 (12, 8, 11, NULL, '6.50', NULL);
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user`
+--
+
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE IF NOT EXISTS `user` (
+  `user_name` varchar(255) NOT NULL,
+  `password_hash` varchar(255) NOT NULL,
+  PRIMARY KEY (`user_name`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `user`
+--
+
+INSERT INTO `user` (`user_name`, `password_hash`) VALUES
+('admin', '$2y$10$NQcjYlb5NXLcvgwnPmpxd..H560RWEIehBHb21Jc70RGBWwK/Hwdm');
 COMMIT;

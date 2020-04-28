@@ -1,0 +1,8 @@
+#connection_form {
+  position: absolute;
+	top:20vh;
+	left: 30%;
+	width: 50%;
+	height:50vh;
+  font-size: 1vw;
+}

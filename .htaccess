@@ -1,7 +1,19 @@
 #renvoie les requêtes url à l'index
 RewriteEngine On
-RewriteRule ^(.*)\ $1\.php [L]
+
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.+)$ /odm-website/index.php [QSA,L]
+
+# Deny access to .htaccess
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
+
+# Disable directory browsing
+Options -Indexes
+
+
+# TODO configurer entièrement avec https://perishablepress.com/stupid-htaccess-tricks/
