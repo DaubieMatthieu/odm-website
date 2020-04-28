@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="public/css/home.css" />
-    <script defer type="text/javascript" src="public/js/home.js"></script>
-  </head>
-
-  <body>
-
-    <?php require("header.php");?>
-
-    <img onclick="jumpToAnchor('welcome');" class="scroll-icon" id="link-top" src="public/images/arrow_up.png">
+<?php
+$content= <<<EOD
+<img anchortarget="top" class="scroll-icon navigation " id="link-top" src="public/images/arrow_up.png">
 
     <div id="welcome">
       <div>
         <h1>L'Ordre du Malt</h1>
         <p>Slogan qui claque</p>
         <br>
-        <img onclick="jumpToAnchor('content');" class="scroll-icon" id="link-content" src="public/images/arrow_down.png">
+        <img anchortarget="content" class="scroll-icon navigation" id="link-content" src="public/images/arrow_down.png">
       </div>
     </div>
 
@@ -60,7 +51,5 @@
         </p>
       </div>
     </div>
-
-  </body>
-
-</html>
+EOD;
+?>

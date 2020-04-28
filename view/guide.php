@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html>
+<?php
+$styles = json_encode($styles);
+$colors = json_encode($colors);
+$placesByStyle = json_encode($placesByStyle);
+$content= <<<EOD
   <head>
-    <link rel="stylesheet" href="public/css/guide.css" />
-    <script src="http://code.jquery.com/jquery.js"></script>
     <script>
     //traduit les données de la bdd du format php au format js pour que guide.js puisse les utiliser
-    var styles = <?=json_encode($styles)?>;
-    var colors = <?=json_encode($colors)?>;
-    var placesByStyle = <?=json_encode($placesByStyle)?>;
+    var styles = $styles;
+    var colors = $colors;
+    var placesByStyle = $placesByStyle;
     </script>
-    <script defer type="text/javascript" src="public/js/guide.js"></script>
 		<script src="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js"></script>
 		<link href="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css" rel="stylesheet" />
   </head>
@@ -27,5 +27,5 @@
       </div>
     </div>
   </body>
-
-</html>
+EOD;
+?>
