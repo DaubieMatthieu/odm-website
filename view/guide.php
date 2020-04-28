@@ -19,7 +19,14 @@ $content= <<<EOD
     <div id="page-container">
       <div id="map">
         <div id="map-container"></div>
-        <div id="map-controllers"></div>
+        <div id="map-controller">
+          <h3>Controleurs</h3>
+          <div id="layer-controllers"></div>
+          <div id="controllers-managers">
+            <div class="controllers-manager" onclick="activateAllControllers();">Activer</div>
+            <div class="controllers-manager" onclick="deactivateAllControllers();">Désactiver</div>
+          </div>
+        </div>
       </div>
       <div id="place">
         <div id="place-infos"></div>

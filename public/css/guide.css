@@ -12,11 +12,15 @@
   float:left;
 }
 
-#map-controllers {
+#map-controller {
   width: 30%;
   height: 100%;
   float: right;
-  padding: 2%;
+  padding: 1% 2%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #place {
@@ -38,24 +42,47 @@
   float:right;
 }
 
-.map-controller  {
+#layer-controllers {
+  width: 80%;
+  overflow-y: auto;
+}
+
+#map-controller > div > * {
   cursor: pointer;
+  text-align: center;
+  transition: all 1s ease;
+  opacity: 0.7;
+}
+
+#map-controller > div > *:hover {
+  opacity: 1;
+}
+
+.layer-controller  {
   font-size: 13px;
   color: black;
-  opacity: 0.8;
   display: block;
   margin: 0;
   padding: 0;
   padding: 10px;
-  text-decoration: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
-  text-align: center;
+  width: 100%;
 }
 
-.map-controller:hover {
-  opacity: 1;
-}
-
-.map-controller.active {
+.layer-controller.active {
   color: white;
+}
+
+#controllers-managers {
+  width: 100%;
+  height: 3em;
+  display:flex;
+  justify-content: space-around;
+}
+
+.controllers-manager {
+  width: 40%;
+  background-color: var(--confirm_color);
+  padding: 1em;
+  font-size:1em;
 }

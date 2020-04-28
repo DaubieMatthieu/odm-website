@@ -1,0 +1,85 @@
+/* définit le style des formulaires du site, les dimensions et le font-size du formulaire doivent être définit dans le css associé à la pages
+le contenu du .form s'adapte aux dimensions définit
+TODO améliorer ce style*/
+
+.form {
+  padding: 2%;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	background-color: white;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-width: 500px;
+  min-height: 300px;
+}
+
+.form h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.form-inputs {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.form-inputs label, .form-inputs input {
+	display: inline-block;
+  margin: 2% 0;
+  padding: 2% 2%;
+  font-size: 1.2em;
+}
+
+.form-inputs label {
+  width: 40%;
+}
+
+.form-inputs input {
+  width: 55%;
+	border: 0;
+  outline: 1px solid #ccc;
+}
+
+.form .form-button {
+  display: inline-block;
+  width: 20%;
+  height: 3em;
+	outline: none;
+  color: white;
+  padding: 1em 1em;
+  border: none;
+  cursor: pointer;
+  border: 1px solid white;
+  font-size: 1em;
+}
+
+.form .form-cancel {
+  background-color: var(--cancel_color);
+}
+
+.form .form-cancel:hover {
+  background-color: white;
+  color: var(--cancel_color);
+  border-color: var(--cancel_color);
+}
+
+.form .form-confirm {
+  background-color: var(--confirm_color);
+}
+
+.form .form-confirm:hover {
+  background-color: white;
+  color: var(--confirm_color);
+  border-color: var(--confirm_color);
+}
+
+.form #form-message {
+  width: 85%;
+  text-align: center;
+  color:red;
+  display: none;
+}

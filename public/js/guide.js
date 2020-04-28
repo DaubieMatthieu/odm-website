@@ -44,7 +44,6 @@ function addLayers() {
         }
       };
       features.push(feature);
-      console.log(feature);
     });
     //ajout des données sur la carte
     map.addLayer({
@@ -68,35 +67,41 @@ function addControllers() {
   	var layerId = styles[i];
 
     //crée le controller
-  	var mapController = document.createElement('div');
-  	mapController.className = 'map-controller active';
-  	mapController.textContent = layerId;
+  	var layerController = document.createElement('div');
+  	layerController.className = 'layer-controller active';
+  	layerController.textContent = layerId;
 
     //ajoute la couleur au controller et au layer associé sur la map
-    $(mapController).css("background-color",colors[layerId]);
+    $(layerController).css("background-color",colors[layerId]);
   	map.setPaintProperty(layerId, 'text-color',colors[layerId]);
 
-  	mapController.onclick = clickOnController;
-  	document.getElementById('map-controllers').appendChild(mapController);
+  	layerController.onclick = switchController;
+  	document.getElementById('layer-controllers').appendChild(layerController);
   }
+	//$(".controllers-manager").on("click", $(this).attr("function"));
 }
 
-function clickOnController(e) {
-  var clickedLayer = this.textContent;
-
-  var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
-
-  if (visibility === 'visible') {
-    map.setLayoutProperty(clickedLayer, 'visibility', 'none');
-    $(this).removeClass("active");
-    $(this).css("background-color","lightgrey");
+function switchController(e) {
+  if ($(this).hasClass("active")) {
+		deactivateController(this);
   } else {
-    map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
-    $(this).addClass("active");
-    $(this).css("background-color",colors[clickedLayer]);
+		activateController(this);
   }
 }
 
+function deactivateController(e) {
+  var clickedLayer = e.textContent;
+	map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+	$(e).removeClass("active");
+	$(e).css("background-color","lightgrey");
+}
+
+function activateController(e) {
+  var clickedLayer = e.textContent;
+	map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+	$(e).addClass("active");
+	$(e).css("background-color",colors[clickedLayer]);
+}
 
 map.on('click', function(e) {
   //détermine le nom du lieu pour en afficher les données
@@ -116,7 +121,7 @@ function loadPlace(placeName,req) {
   //récupère les données demandées (req) du lieu demandé (placeName) via AJAX et les affiche dans le bon div dans le html
   $.ajax({
     type: "POST",
-    url: "controller/place.php",
+    url: "place",
     data: 'placeName=' + placeName + '&req=' + req,
     success: function(data) {
       $("#place-"+req).html(data);
@@ -126,4 +131,19 @@ function loadPlace(placeName,req) {
     },
     dataType: "html"
   });
+}
+
+function deactivateAllControllers() {
+	activeControllers=$(".layer-controller.active");
+	for (var i = 0; i < activeControllers.length; i++) {
+		setTimeout(deactivateController, 100*(activeControllers.length-i), activeControllers[i]);
+	}
+}
+
+function activateAllControllers() {
+	i=0;
+	$(".layer-controller:not(.active)").each(function() {
+		setTimeout(activateController, 100*i, this);
+		i++;
+	});
 }
