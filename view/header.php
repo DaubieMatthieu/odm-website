@@ -8,6 +8,6 @@
 		<li onclick="location.href='<?=$link_prefix?>brassage'">Brassage</li>
 		<li onclick="location.href='<?=$link_prefix?>charte_du_bon_buveur'">Charte du bon buveur</li>
 		<li onclick="location.href='<?=$link_prefix?>contact'">Contact</li>
-		<?=($is_admin)?"<li onclick=\"location.href='gestion'\">Gestion</li>":""?>
+		<?=($is_admin)?"<li onclick=\"location.href='admin/gestion'\">Gestion</li>":""?>
 	</ul>
 </header>

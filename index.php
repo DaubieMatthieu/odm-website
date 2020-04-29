@@ -16,7 +16,7 @@ try {
   $dynamic_pages=array("guide","evenements","gestion","erreur");
   $static_pages=array("accueil","brassage","charte_du_bon_buveur","connexion","contact","connexion");
 
-  $request=decompressRequest($request_url);
+  $request=decompressUrl($request_url);
   $dir=$request["dir"];
   $page=$request["page"];
   $parameters=$request["parameters"];
@@ -44,6 +44,8 @@ function decompressUrl($request_url) {
   //extrait les données de l'url et les stock dans une variable
   global $static_pages, $dynamic_pages, $ajax_loaded_pages;
   $request_arr=preg_split('{/}',$request_url);
+  //si l'url demandée est une ressource publique, on laisse le navigateur faire son travail et on sort de la fonction
+  if (in_array("public",$request_arr)) {return;}
   $parameters=array("is_admin" => false);
 
   if ($request_arr[0]=="admin") {
