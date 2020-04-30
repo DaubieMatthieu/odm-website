@@ -53,21 +53,18 @@ $(document).ready(function(){
   }
 
   function checkCredentials() {
-    $.post(
-      'connect',
-      {
-          user_name : userName.val(),
-          password_string : passwordString.val()
-      },
-      function(data){
-        if(data == 'success') {
-          location.reload();
-        } else {
-          printMessage("Identifiants incorrects");
-        }
-      },
-      'text'
-   );
+    var data = {
+      "function" : "connectUser",
+      "parameters" : {user_name:userName.val(), password_string:passwordString.val()}
+    };
+    ajax("administration",data,function(result) {
+      console.log(result);
+      if (result) {
+        location.reload();
+      } else {
+        printMessage("Identifiants incorrects");
+      }
+    });
   }
 
 });

@@ -2,37 +2,38 @@
 //fichier appelé via AJAX dans le guide
 //renvoie les données demandées sous forme d'html
 
-try {
-  //vérifie que les paramètres de requêtes sont valides
-  if (isset($_POST['placeName'])) {
-    $placeName=$_POST['placeName'];
-  } else {throw new \Exception("erreur POST['placeName']", 1);}
+require_once("model/place.php");
 
-  if (isset($_POST['req'])) {
-    $req=$_POST['req'];
-  } else {throw new \Exception("erreur POST['req']", 1);}
-
-  require("../model/place.php");
-
-  switch ($req) {
-    //selon les données demandées, appelle la bonne fonction du model pour récupérer les données de la bdd et les affiche via le bon fichier
-    case 'infos':
-      $data=getPlaceInfos($placeName);
-      require("../view/place_infos.php");
-      break;
-
-    case 'biers':
-      $data=getPlaceBiers($placeName);
-      require("../view/place_biers.php");
-      break;
-
-    default:
-      throw new \Exception("requête lieu inconnu", 1);
-      break;
+function loadPlaceBiers($place_name) {
+  $biers=getPlaceBiers($place_name);
+  $content="";
+  foreach ($biers as $bier) {
+    $bier_name=$bier["name"];
+    $bier_style=empty($bier["style"]) ? "" : $bier["style"];
+    $bier_description=empty($bier["description"]) ? "" : $bier["description"];
+    $content.= <<<EOD
+    <div class='bier'>
+      <h1>$bier_name</h1>
+      <p>$bier_style</p>
+      <p>$bier_description</p>
+    </div>
+EOD;
   }
-} catch(Exception $e) {
-  //log les erreurs dans un fichier
-  ini_set("log_errors", 1);
-  ini_set("error_log", "../tmp/php-error.log");
-  error_log($e);
+  return $content;
+}
+
+function loadPlaceInfos($place_name) {
+  $infos=getPlaceInfos($place_name);
+  $type=$infos["type"];
+  $name=$infos["name"];
+  $description=empty($infos["description"])?"":$infos["description"];
+  $address=empty($infos["address"])?"":$infos["address"];
+  $website=empty($infos["website"])?"":$infos["website"];
+  $content= <<<EOD
+  <h1>$type $name</h1>
+  <p>$description</p>
+  <p>$address</p>
+  <p>$website</p>
+EOD;
+  return $content;
 }

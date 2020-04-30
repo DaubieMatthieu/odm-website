@@ -52,6 +52,38 @@ ul#menu > li:hover > a:after {
 	transform: scaleX(1);
 }
 
+.submenu {
+	position: absolute;
+	top:3vh;
+	padding-top: 4vh;
+	right:1vw;
+	text-align: right;
+	border-right: 1px solid DarkGoldenRod;
+	border-right: 1px solid var(--light-10-honey-color);
+	overflow: hidden;
+	max-height: 0;
+	transition:all 1s ease;
+}
+
+.submenu li {
+	padding: 0 1vw;
+	color:black;
+	background:linear-gradient(to right, transparent 50%, DarkGoldenRod 50%);
+	background: linear-gradient(to right, transparent 50%, var(--light-10-honey-color) 50%);
+	background-size: 200% 100%;
+	background-position:left bottom;
+	transition:all 0.8s ease;
+}
+
+.submenu-container:hover .submenu {
+	max-height: 40vh;
+}
+
+.submenu li:hover {
+	background-position: right bottom;
+	color:white;
+}
+
 .space-header {
 	height: 10%;
 }

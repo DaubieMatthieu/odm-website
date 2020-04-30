@@ -11,3 +11,11 @@ function scroll_header() {
     header.style.boxShadow = "none";
   }
 }
+
+function disconnectUser() {
+  ajax("administration",{function: "disconnectUser"},function() {location.href=page;});
+}
+
+function switchMode() {
+  ajax("administration",{function: "switchMode"},function() {location.reload();});
+}

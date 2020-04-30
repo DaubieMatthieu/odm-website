@@ -117,20 +117,15 @@ map.on('click', function(e) {
   loadPlace(feature.properties.title,"biers");
 });
 
-function loadPlace(placeName,req) {
-  //récupère les données demandées (req) du lieu demandé (placeName) via AJAX et les affiche dans le bon div dans le html
-  $.ajax({
-    type: "POST",
-    url: "place",
-    data: 'placeName=' + placeName + '&req=' + req,
-    success: function(data) {
-      $("#place-"+req).html(data);
-    },
-    error: function() {
-      console.log("ajax call error when loading "+placeName+" "+req);
-    },
-    dataType: "html"
-  });
+function loadPlace(placeName,request) {
+  //récupère les données demandées (request) du lieu demandé (placeName) via AJAX et les affiche dans le bon div dans le html
+	var data = {
+		"function" : "loadPlace"+request,
+		"parameters" : {place_name:placeName}
+	};
+	ajax("place",data,function(data) {
+		$("#place-"+request).html(data);
+	},"html");
 }
 
 function deactivateAllControllers() {
