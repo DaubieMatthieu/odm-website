@@ -58,22 +58,28 @@ TODO améliorer ce style*/
 }
 
 .form .form-cancel {
+  background-color: orangered;
   background-color: var(--cancel_color);
 }
 
 .form .form-cancel:hover {
   background-color: white;
+  color: orangered;
   color: var(--cancel_color);
+  border-color: orangered;
   border-color: var(--cancel_color);
 }
 
 .form .form-confirm {
+  background-color: RoyalBlue;
   background-color: var(--confirm_color);
 }
 
 .form .form-confirm:hover {
   background-color: white;
+  color: RoyalBlue;
   color: var(--confirm_color);
+  border-color: RoyalBlue;
   border-color: var(--confirm_color);
 }
 

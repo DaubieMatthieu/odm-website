@@ -9,40 +9,38 @@ header
 	display: flex;
   justify-content: space-between;
 	align-items: center;
+	font-size: 1.5em;
 }
 
-header > img {
+header ul li {list-style-type: none;cursor: pointer;}
+header a {color: inherit;display: block;text-decoration: none;}
+
+header .odm_name_logo {
 	min-height: 70px;
 	max-height: 100%;
 	width: auto;
 	margin-left: 1vh;
 }
 
-header > ul
-{
-	list-style-type: none;
+ul#menu {
 	display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
 	align-items: center;
 	width:80%;
 	height: 100%;
+	padding-right: 2%;
 }
 
-header > ul > li
-{
-	text-decoration: none;
-	transition: all 0.2s;
-	font-size: 1.5em;
-  color:black;
-	text-align: center;
-	cursor: pointer;
+ul#menu > li {
+	height:40%;
 }
 
-header > ul > li:hover {
+ul#menu > li:hover {
+	color: DarkGoldenRod;
 	color:var(--honey-color);
 }
 
-header > ul > li:after {
+ul#menu > li > a:after {
   display:block;
   content: '';
   border-bottom: solid 3px #a98307;
@@ -50,7 +48,9 @@ header > ul > li:after {
   transition: transform 250ms ease-in-out;
 }
 
-header > ul > li:hover:after { transform: scaleX(1); }
+ul#menu > li:hover > a:after {
+	transform: scaleX(1);
+}
 
 .space-header {
 	height: 10%;

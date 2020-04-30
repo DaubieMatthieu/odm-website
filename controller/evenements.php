@@ -1,3 +1,3 @@
 <?php
 //récupérer événemenets dans la bdd avec le model
-require("view/evenements.php");
+require_once("view/evenements.php");

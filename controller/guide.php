@@ -1,10 +1,10 @@
 <?php
 //récupérer données du guide dans la bdd avec le model
-require("model/guide.php");
+require_once("model/guide.php");
 $styles=getStyles();
 $placesByStyle=getPlacesByStyle($styles);
 $colors=getColors($styles);
-require("view/guide.php");
+require_once("view/guide.php");
 
 function getColors($styles) {
   //génère des couleurs automatiquement en fonction du nombre de styles à afficher

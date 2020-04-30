@@ -16,6 +16,8 @@ body {
 
 :root {
   --honey-color: #a98307;
+	--light-10-honey-color: #C59F21;
+	--light-20-honey-color: #DEB83A;
 	--cancel_color: #ff476f;
   --confirm_color: #59adde;
 }
@@ -36,6 +38,7 @@ body {
 
 .line {
   width: 60%;
+  border-bottom:1px solid DarkGoldenRod;
   border-bottom:1px solid var(--honey-color);
   height: 0;
   margin: 5vh auto 5vh auto;

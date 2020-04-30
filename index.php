@@ -13,18 +13,20 @@ try {
 
   //listes classées des pages accessibles du site
   $ajax_loaded_pages=array("place","connect");
-  $dynamic_pages=array("guide","evenements","gestion","erreur");
+  $dynamic_pages=array("guide","evenements","données","maintenance","erreur");
   $static_pages=array("accueil","brassage","charte_du_bon_buveur","connexion","contact","connexion");
+  $admin_pages=array("maintenance","données");
 
   $request=decompressUrl($request_url);
   $dir=$request["dir"];
   $page=$request["page"];
   $parameters=$request["parameters"];
   $is_admin=$parameters["is_admin"];
+  $link_prefix=($is_admin)?"admin/":"";
   $title=str_replace('_', ' ', ucwords($page))  ;
 
   //le fichier chargé ci dessous va générer le contenu de la page
-  require($dir."/".$page.".php");
+  require_once($dir."/".$page.".php");
 
   if (!in_array($page,$ajax_loaded_pages)) {
     //si la page n'est pas chargée via ajax, on charge la page template qui va affiché le contenu généré précédemment
@@ -35,15 +37,15 @@ try {
 } catch(Exception $e) {
   //gestion de l'ensemble des erreurs du site
   //TODO permettre la visualisation en ligne (gestion)
-  custom_log($e);
+  customLog($e);
   //redirige vers la page d'erreur avec le code d'erreur
-  header('Location:erreur/'.urlencode($e->getMessage()));
+  header("Location:".$link_prefix."erreur/".urlencode($e->getMessage()));
 }
 
 function decompressUrl($request_url) {
   //extrait les données de l'url et les stock dans une variable
   global $static_pages, $dynamic_pages, $ajax_loaded_pages;
-  $request_arr=preg_split('{/}',$request_url);
+  $request_arr=array_unique(preg_split('{/}',urldecode($request_url)));
   //si l'url demandée est une ressource publique, on laisse le navigateur faire son travail et on sort de la fonction
   if (in_array("public",$request_arr)) {return;}
   $parameters=array("is_admin" => false);
@@ -72,7 +74,7 @@ function compressUrl($page,$parameters) {
   $url=$page."/";
 }
 
-function custom_log($e) {
+function customLog($e) {
   //log les erreurs dans un fichier
   ini_set("log_errors", 1);
   ini_set("error_log", "tmp/php-error.log");

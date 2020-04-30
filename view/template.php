@@ -35,13 +35,15 @@
     <link rel="stylesheet" href="public/css/<?=$page?>.css" />
     <script defer type="text/javascript" src="public/js/<?=$page?>.js"></script>
     <title><?=$title?></title>
+
+    <script>var page="<?=$page?>";</script>
   </head>
 
   <body>
     <div id=top></div>
-    <?php require("header.php");?>
-    <?=$content?>;
+    <?php require_once("header.php");?>
+    <?=$content?>
   </body>
 
 </html>
-<!--permet d'avoir un style général pour toutes les pages du site, non utilisé pour l'instant
+<!--permet d'avoir un style général pour toutes les pages du site-->

@@ -1,6 +1,10 @@
 <?php
 $content = <<<EOD
 <div id="page-container">
+  <div class="space-header"></div>
+  <h1>Cette section est réservée aux administrateurs</h1>
+  <h3>Veuillez vous identifier ou retourner vers une page publique</h3>
+  <div class="space-header"></div>
   <form action="" id="connection_form" class="form">
     <h1>Connexion</h1>
 
