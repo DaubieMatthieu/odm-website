@@ -1,0 +1,546 @@
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('')
+#6 {main}
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/SQLSTATE...')
+#6 {main}
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/S...')
+#6 {main}
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:17 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:18 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 19:59:23 UTC] PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Program Files\Ampps\www\odm-website\model\db_connect.php:9
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\db_connect.php(9): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 C:\Program Files\Ampps\www\odm-website\model\admin.php(7): dbConnect()
+#2 C:\Program Files\Ampps\www\odm-website\controller\administration.php(30): getUserHash('')
+#3 C:\Program Files\Ampps\www\odm-website\index.php(103): checkUserSession()
+#4 C:\Program Files\Ampps\www\odm-website\index.php(57): checkAdmin()
+#5 C:\Program Files\Ampps\www\odm-website\index.php(20): decompressUrl('erreur/erreur/e...')
+#6 {main}
+[11-May-2020 20:02:58 UTC] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ordre_du_malt.beer' doesn't exist in C:\Program Files\Ampps\www\odm-website\model\guide.php:11
+Stack trace:
+#0 C:\Program Files\Ampps\www\odm-website\model\guide.php(11): PDO->query('SELECT DISTINCT...')
+#1 C:\Program Files\Ampps\www\odm-website\controller\guide.php(4): getStyles()
+#2 C:\Program Files\Ampps\www\odm-website\index.php(30): require_once('C:\\Program File...')
+#3 {main}

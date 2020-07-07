@@ -18,8 +18,8 @@ body {
   --honey-color: #a98307;
 	--light-10-honey-color: #C59F21;
 	--light-20-honey-color: #DEB83A;
-	--cancel_color: #ff476f;
-  --confirm_color: #59adde;
+	--cancel-color: #ff476f;
+  --confirm-color: #59adde;
 }
 
 #page-container {

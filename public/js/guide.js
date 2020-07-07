@@ -114,10 +114,10 @@ map.on('click', function(e) {
   }
   var feature = features[0];
   loadPlace(feature.properties.title,"infos");
-  loadPlace(feature.properties.title,"biers");
+  loadPlace(feature.properties.title,"beers", initSlider);
 });
 
-function loadPlace(placeName,request) {
+function loadPlace(placeName,request, callback=function() {}) {
   //récupère les données demandées (request) du lieu demandé (placeName) via AJAX et les affiche dans le bon div dans le html
 	var data = {
 		"function" : "loadPlace"+request,
@@ -125,6 +125,7 @@ function loadPlace(placeName,request) {
 	};
 	ajax("place",data,function(data) {
 		$("#place-"+request).html(data);
+		callback();
 	},"html");
 }
 
@@ -140,5 +141,15 @@ function activateAllControllers() {
 	$(".layer-controller:not(.active)").each(function() {
 		setTimeout(activateController, 100*i, this);
 		i++;
+	});
+}
+
+function initSlider() {
+	$(".slider").slick({
+		dots:true,
+		autoplay:true,
+		autoplaySpeed:2000,
+		speed:800,
+		arrows:false
 	});
 }

@@ -1,4 +1,5 @@
 /*TODO améliorer toute la mise en forme*/
+@import "place.css";
 
 #map {
   width: 100%;
@@ -35,7 +36,7 @@
   float:left;
 }
 
-#place-biers {
+#place-beers {
   /*TODO créer slider */
   padding: 2%;
   width: 60%;
@@ -82,7 +83,7 @@
 
 .controllers-manager {
   width: 40%;
-  background-color: var(--confirm_color);
+  background-color: var(--confirm-color);
   padding: 1em;
   font-size:1em;
 }

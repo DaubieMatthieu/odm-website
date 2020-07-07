@@ -1,0 +1,64 @@
+.beer {
+  display: flex;
+  flex-wrap: wrap;;
+}
+
+.beer-feature {
+  font-size: 1.5em;
+}
+
+.beer-name {
+  order:1;
+  font-size: 2em;
+  width: 60%;
+}
+
+.beer-score {
+  order:2;
+  width: 20%;
+  color:var(--honey-color);
+}
+
+.beer-price {
+  order:3;
+  width: 10%;
+  text-align: right;
+}
+
+.beer-price-in-hh {
+  order: 4;
+  width: 10%;
+  font-size: 1em;
+  text-align: left;
+}
+
+.beer-style {
+  order:5;
+  width:30%;
+}
+
+.beer-brewery {
+  order:6;
+  width: 20%;
+}
+
+.beer-region {
+  order:7;
+  width: 20%;
+}
+
+.beer-level {
+  order:8;
+  width: 15%;
+}
+
+.beer-capacity {
+  order: 9;
+  width: 15%;
+}
+
+.beer-description {
+  order: 10;
+  width: 100%;
+  padding:15px;
+}

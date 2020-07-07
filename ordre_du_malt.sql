@@ -9,23 +9,23 @@ USE ordre_du_malt;
 -- --------------------------------------------------------
 
 --
--- Table structure for table `bier`
+-- Table structure for table `beer`
 --
 
-DROP TABLE IF EXISTS `bier`;
-CREATE TABLE IF NOT EXISTS `bier` (
-  `id_bier` int(11) NOT NULL AUTO_INCREMENT,
+DROP TABLE IF EXISTS `beer`;
+CREATE TABLE IF NOT EXISTS `beer` (
+  `id_beer` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(256) NOT NULL,
   `style` text,
   `description` text,
-  PRIMARY KEY (`id_bier`)
+  PRIMARY KEY (`id_beer`)
 ) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `bier`
+-- Dumping data for table `beer`
 --
 
-INSERT INTO `bier` (`id_bier`, `name`, `style`, `description`) VALUES
+INSERT INTO `beer` (`id_beer`, `name`, `style`, `description`) VALUES
 (1, 'Carolus d\'or', 'Bière de garde', NULL),
 (2, 'Kilkenny', 'Pale Ale', NULL),
 (3, 'Guiness', 'Stout', 'Dry Stout'),
@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS `place` (
 
 INSERT INTO `place` (`id_place`, `name`, `type`, `description`, `address`, `website`, `latitude`, `longitude`) VALUES
 (1, 'Le Falstaff', 'Bar', NULL, '42 Rue du Montparnasse, 75014 Paris', NULL, '48.842840', '2.326065'),
-(2, 'Bières Cultes Châtelet', 'Micro-brasserie', NULL, '14 Rue des Halles, 75001 Paris', 'http://bierescultes.fr', '48.859861', '2.346811'),
+(2, 'Bières Cultes Châtelet', 'Micro-brasserie', NULL, '14 Rue des Halles, 75001 Paris', 'http://beerescultes.fr', '48.859861', '2.346811'),
 (6, 'Coopérative laitière du Beaufortain', 'Fromagerie', NULL, '9 Rue Corneille, 75006 Paris', 'https://www.cooperative-de-beaufort.com/', '48.849217', '2.339104'),
 (5, 'Le Vieux Chêne', 'Bar', NULL, '69 Rue Mouffetard, 75005 Paris', NULL, '48.842335', '2.349820'),
 (7, 'O\'Clock Brewing', 'Micro-brasserie', NULL, '3 d Rue Georges Méliès, 78390 Bois-d\'Arcy', NULL, '48.800566', '2.009211'),
@@ -72,27 +72,27 @@ INSERT INTO `place` (`id_place`, `name`, `type`, `description`, `address`, `webs
 -- --------------------------------------------------------
 
 --
--- Table structure for table `place_bier`
+-- Table structure for table `place_beer`
 --
 
-DROP TABLE IF EXISTS `place_bier`;
-CREATE TABLE IF NOT EXISTS `place_bier` (
-  `id_place_bier` int(11) NOT NULL AUTO_INCREMENT,
+DROP TABLE IF EXISTS `place_beer`;
+CREATE TABLE IF NOT EXISTS `place_beer` (
+  `id_place_beer` int(11) NOT NULL AUTO_INCREMENT,
   `id_place` int(11) NOT NULL,
-  `id_bier` int(11) NOT NULL,
+  `id_beer` int(11) NOT NULL,
   `score` decimal(4,2) DEFAULT NULL,
   `price` decimal(4,2) DEFAULT NULL,
   `alcohol_level` decimal(4,2) DEFAULT NULL,
-  PRIMARY KEY (`id_place_bier`),
-  KEY `lieu_biere_ibfk_1` (`id_place`),
-  KEY `lieu_biere_ibfk_2` (`id_bier`)
+  PRIMARY KEY (`id_place_beer`),
+  KEY `lieu_beere_ibfk_1` (`id_place`),
+  KEY `lieu_beere_ibfk_2` (`id_beer`)
 ) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `place_bier`
+-- Dumping data for table `place_beer`
 --
 
-INSERT INTO `place_bier` (`id_place_bier`, `id_place`, `id_bier`, `score`, `price`, `alcohol_level`) VALUES
+INSERT INTO `place_beer` (`id_place_beer`, `id_place`, `id_beer`, `score`, `price`, `alcohol_level`) VALUES
 (1, 1, 1, NULL, '5.00', NULL),
 (2, 1, 2, NULL, NULL, NULL),
 (4, 1, 3, NULL, NULL, NULL),

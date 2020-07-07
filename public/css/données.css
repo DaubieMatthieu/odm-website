@@ -1,0 +1,107 @@
+#tables_links {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin:5vh auto 0 auto;
+  max-height: 7vh;
+}
+
+#tables_links a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.5em;
+  background-color: GoldenRod;
+  color:white;
+  width: 12%;
+  text-align: center;
+  padding: 0.5em;
+	border-radius: 0.7em;
+}
+
+#table {
+  margin:7vh 5vw;
+  overflow-y: auto;
+	scrollbar-width: thin;
+  height: 50vh;
+}
+
+::-webkit-scrollbar {
+	width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: lightgrey;
+}
+
+#table table {
+	border-collapse:collapse;
+	width: 100%;
+	border: 1px gray solid;
+}
+
+#table table th {
+	position: sticky;
+	top:0;
+	background-color:DarkSlateGrey;
+	color:white;
+}
+
+#table table th, #table table td {
+	text-align:center;
+	padding-top:7px;
+	padding-bottom:7px;
+	font-size:1.3em;
+	border: 1px gray solid;
+}
+
+#table table th:nth-child(1), #table table td:nth-child(1) {
+  display: none;
+}
+
+#table .table-buttons {
+	display: flex;
+	justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+#table .table-button {
+	outline: none;
+	border:none;
+  cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+
+#table .delete-table-row {
+	color:red;
+}
+
+#table .edit-table-row {
+	color:limegreen;
+}
+
+#edit-form, #delete-form {
+	width: 70%;
+	height:80vh;
+	z-index:2;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: flex;
+	visibility: hidden;
+	opacity: 0;
+	background-color:rgba(255,255,255,0.5);
+}
+
+#new-row {
+  display:block;
+  width: 10vw;
+  text-align: center;
+  margin: 0 auto 5vh auto;
+  padding: 0.5em;
+  font-size: 1.5em;
+  background-color: lightgreen;
+  max-height: 7vh;
+}

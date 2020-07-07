@@ -10,6 +10,10 @@ $content= <<<EOD
     var colors = $colors;
     var placesByStyle = $placesByStyle;
     </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+
 		<script src="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js"></script>
 		<link href="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css" rel="stylesheet" />
   </head>
@@ -30,7 +34,7 @@ $content= <<<EOD
       </div>
       <div id="place">
         <div id="place-infos"></div>
-        <div id="place-biers"></div>
+        <div id="place-beers"></div>
       </div>
     </div>
   </body>

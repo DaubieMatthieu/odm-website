@@ -34,6 +34,9 @@
 
     <link rel="stylesheet" href="public/css/<?=$page?>.css" />
     <script defer type="text/javascript" src="public/js/<?=$page?>.js"></script>
+
+    <script src="https://kit.fontawesome.com/7829fa4db7.js" crossorigin="anonymous"></script>
+    
     <title><?=$title?></title>
 
     <script>var page="<?=$page?>";</script>
